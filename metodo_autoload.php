@@ -30,7 +30,6 @@ class Conta
     {
         $this->Nome = $nome;
     }
-
 }
 
 
