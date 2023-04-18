@@ -6,6 +6,7 @@ include_once "metodo_autoload.php";
 // instanciando um novo objeto
 $carlos = new Conta;
 
+
 // atribuindo valores no atributos
 $carlos->Nome = "Carlos Eduardo";
 $carlos->setSaldo(1500);
