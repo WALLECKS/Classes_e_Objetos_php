@@ -6,7 +6,7 @@ function Abrir($file = null) // informe o nome do arquivo a ser aberto
     
     if(!file_exists($file)){  die ('o arquivo nao existe'); } // verifica se existe o arquivo
 
-    if(!$retun =@file_get_contents($file)) { die ('impossivel ler o arquivo'); } // se nao retornar o arquivo entao sera impossivel ler o arquivo
+    if(!$return =@file_get_contents($file)) { die ('impossivel ler o arquivo'); } // se nao retornar o arquivo entao sera impossivel ler o arquivo
 
     return true; // se existir o arquivo entao retorne verdadeiro
     
