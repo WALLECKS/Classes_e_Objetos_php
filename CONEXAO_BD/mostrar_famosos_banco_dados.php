@@ -1,6 +1,6 @@
 <?php
 // ABRIR CONEXAO COM O BANCO DE DADOS POSTGRESQL
-$conectDB = pg_connect("host=localhost port = 5432 dbname = banco_test user = alex password = ");
+$conectDB = pg_connect("host=localhost port = 5432 dbname = postgres2 = alex password = ");
 
 // DEFINE CONSULTA QUE SERA REALIZADA NO BANCO DE DADOS
 $query = 'SELECT codigo, nome FROM famosos';
